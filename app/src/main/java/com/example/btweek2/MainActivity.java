@@ -1,4 +1,4 @@
-package com.example.week2;
+package com.example.btweek2;
 
 import androidx.appcompat.app.AppCompatActivity;
 

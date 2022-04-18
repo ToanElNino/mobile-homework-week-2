@@ -3,28 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.btweek2.MainActivity">
 
-    <!--    <TextView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Hello World!"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
     <TextView
         android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/Coyotes_heading"
+        android:background="@color/purple_200"
+        android:padding="2dp"
+        android:text="@string/article_title"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:background="@color/purple_700"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
-        />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -41,10 +32,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/padding_regular"
-                android:text="@string/sh1"
-                android:textSize="8pt"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:text="@string/article_subtitle"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault" />
 
             <TextView
                 android:id="@+id/article"
@@ -53,51 +43,9 @@
                 android:autoLink="web"
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/padding_regular"
-                android:text="@string/Coyotes" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/sh2"
-                android:id="@id/article_subheading"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="8pt"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/content2"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/sh3"
-                android:lineSpacingExtra="@dimen/padding_regular"
-                android:padding="@dimen/padding_regular"
-                android:textStyle="bold"
-                android:textSize="8pt"
-                android:textColor="@color/black"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/content3"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="textEnd"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/author"
-                android:textStyle="bold"/>
+                android:text="@string/article_text" />
         </LinearLayout>
+
     </ScrollView>
 
 </RelativeLayout>

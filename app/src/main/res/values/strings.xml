@@ -1,11 +1,44 @@
 <resources>
-    <string name="app_name">Week2</string>
-    <string name="sh3" />
-    <string name="content2" />
-    <string name="sh2" />
-    <string name="Coyotes" />
-    <string name="sh1" />
-    <string name="Coyotes_heading" />
-    <string name="content3" />
-    <string name="author" />
+    <string name="app_name">MyMusicProject</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">Profile</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="language">Language</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="Language">language</string>
+    <string name="home">Home</string>
+
+    <string name="anh1">Mỹ tâm</string>
+    <string name="anh2">Sơn Tùng</string>
+    <string name="anh3">Ngọc Sơn</string>
+    <string name="anh4">Ca sĩ 4</string>
+    <string name="anh5">Ca sĩ 5</string>
+    <string name="anh6">Ca sĩ 6</string>
+    <string name="update_my_song">Update my song</string>
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="article_title">Fantasy Albums</string>
+    <string name="article_subtitle">A <i>fantasy album</i> is an album of music that never was, but perhaps could have been, if the artists had been inclined to (or legally able to) release it. Fantasies include several Beatles albums that match up solo songs, and an album of San Francisco-based supergroups (Crosby Stills Nash &amp; Young, Jefferson Airplane, Grateful Dead, and Santana).</string>
+    <string name="article_text">
+        <h3>What is a fantasy album? www.rockument.com</h3>
+        “Some see things as they are, and ask why. I dream of things that never were, and ask why not.” — Robert F. KennedyA <i>fantasy album</i> is an album of music that never was, but perhaps could have been, if the artists had been inclined to (or legally able to) produce and release it.
+        A fantasy album is plausible as a concept — a collective effort of different artists to put forward a theme, or an alternative that could coexist with an artist’s real works. It is more than a set of playlists with liner notes. Careful attention is paid to the starting and ending song of each album “side” and the song sequence throughout, in order to re-create the album experience of that time and to put forth a concept.
+        The Beatles fantasy “Red Album” is an example. It addresses the idea of what the Beatles might have released if they hadn’t broken up — based on their solo releases.A grand collaboration of Crosby, Stills, Nash &amp; Young, Jefferson Airplane, the Grateful Dead, Quicksilver, and Santana (the Planet Earth Rock and Roll Orchestra). It remains to this day the most amazing collaboration of superstars ever recorded.
+        <p>What if the Beatles had stayed together? This is my fantasy of what the next double-album from the Beatles would have been after <em>Let It Be</em>, using the Beatles members’ solo albums for versions of songs.</p>
+        <p>The Blue Album, released in the immediate aftermath of John Lennon’s <a href="https://en.wikipedia.org/wiki/Death_of_John_Lennon">murder</a>, echoes the turmoil of the times as America swung to the right, and represents a musical transition from happier times to deeply blue circumstances.</p>
+        <p>A fantasy album should be plausible, such as a collective effort of different artists, or an alternative to an artist’s real album. The artists must have been available at the times and places of the recordings.<span class="Apple-converted-space" /></p>
+        <p>I discourage collections of outtakes of real albums, mostly because the songs should be readily available, and because it’s not a “concept” for a fantasy. Someone should invent another idea for outtake albums (not “fantasy album”).</p>
+        <p>The goal is to imagine what the fantasy album would have been like if the artists had deliberately chosen to put it together.</p>
+        <p>An essential part of the album experience was listening intently to each song in sequence. With albums on vinyl, you had to get up from your cozy couch and turn over the vinyl to play the other side. The equivalent experience today is separating the sides into playlists.</p>
+    </string>
 </resources>
